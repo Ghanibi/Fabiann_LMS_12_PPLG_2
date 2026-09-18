@@ -92,6 +92,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [userRole, setUserRole] = useState<UserRole>('Administrator');
 
   // User Session & Authentication
